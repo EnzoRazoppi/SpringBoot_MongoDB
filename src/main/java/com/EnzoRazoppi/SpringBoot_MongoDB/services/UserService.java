@@ -3,6 +3,7 @@ package com.EnzoRazoppi.SpringBoot_MongoDB.services;
 import java.util.List;
 import java.util.Optional;
 
+import org.apache.logging.log4j.spi.ObjectThreadContextMap;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -33,6 +34,17 @@ public class UserService {
 	public void delete(String id) {
 		findById(id);
 		repository.deleteById(id);
+	}
+	
+	public User update(User obj) {
+		User newObj = repository.findById(obj.getId()).get();
+		updateData(newObj, obj);
+		return repository.save(newObj);
+	}
+	
+	public void updateData(User newObj, User obj) {
+		newObj.setName(obj.getName());
+		newObj.setEmail(obj.getEmail());
 	}
 	
 	public User fromDTO(UserDTO objDto) {
