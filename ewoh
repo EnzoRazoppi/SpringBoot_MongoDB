@@ -1,0 +1,71 @@
+[33mcommit 802d8a7601d19d8ec323c4af2cd16bcf0b5c069e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Thu Jun 5 11:15:30 2025 -0300
+
+     Putting the list of posts in user entity
+
+[33mcommit f5d8c211f64a9cba9b91d6571e79129e1c9734cf[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Thu Jun 5 10:29:10 2025 -0300
+
+    AuthorDTO
+
+[33mcommit dd64ad7171da9a61256acee5ef46a8c9e55a86dc[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Wed Jun 4 23:25:30 2025 -0300
+
+    Creating Post entity with User
+
+[33mcommit 30af96977635a87095898dfaf9f88d90cbbbeb40[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Tue Jun 3 11:48:01 2025 -0300
+
+    PUT method
+
+[33mcommit 67e2ca550887f76795ee464992aafc272b94001f[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Tue Jun 3 10:40:43 2025 -0300
+
+     Delete users by DELETE method
+
+[33mcommit c6df0690c822ee46822af04884ea215ef0204a08[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Tue Jun 3 10:30:39 2025 -0300
+
+    insert through post method
+
+[33mcommit 26cc31700533e24f74f9bcb3255816fa3672eef2[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Mon Jun 2 18:58:23 2025 -0300
+
+    Get users by id
+
+[33mcommit 9c7ee76a028dc2def0f271519203006f41e16d12[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Mon Jun 2 18:17:03 2025 -0300
+
+    Using DTO pattern to return users
+
+[33mcommit 81405ceb5c9439da52c37157db41f19fde6a1a21[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Mon Jun 2 11:38:01 2025 -0300
+
+    Database instatiation
+
+[33mcommit dad29dcb7c343d99dbb50ab0ff7404abf8edb23f[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Mon Jun 2 11:27:03 2025 -0300
+
+     MongoDB connect, UserRepository and UserService
+
+[33mcommit 2d7da34db116427fbf97c4efa9948f9fefbf0696[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Fri May 30 12:27:27 2025 -0300
+
+    Entity User
+
+[33mcommit d6086c328d2ed2f1c2cb06c3e0fbb9c76826ac99[m
+Author: Razoppi <razoppienzo@gmail.com>
+Date:   Fri May 30 11:44:21 2025 -0300
+
+    First commit/ Project created
